@@ -175,20 +175,22 @@ a {
 }
 
 .clients .row-brands {
-    margin-top: 77px;
+    margin-top: 70px;
 }
 
-.row-brands .brand:nth-child(3) {
+.clients .brand {
     display: flex;
-    background-color: #ffffff;
-    box-shadow:
-        5px 5px 10px rgba(0, 0, 0, 0.1),
-        -5px 5px 10px rgba(0, 0, 0, 0.1);
-    width: 204px;
-    border-radius: 12px;
-    padding: 26px;
+    align-items: center;
     justify-content: center;
+    height: 90px;
+    padding: 0 42px;
+    border-radius: 12px;
 }
+
+.clients .brand:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
 /* ================Guides================== */
 .guides {
     margin-top: 40px;
